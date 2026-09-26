@@ -63,7 +63,7 @@ export const AboutUs: React.FC = () => {
           >
             <div className="w-full max-w-xs rounded-2xl overflow-hidden shadow-lg border border-neutral-200/60 aspect-[4/5] group bg-white">
               <img
-                src="/images/operatory.svg"
+                src="./images/dental-care.jpg"
                 alt="Modern Dental Operatory Suite"
                 className="w-full h-full object-cover group-hover:scale-108 transition-transform duration-700"
               />
@@ -81,7 +81,7 @@ export const AboutUs: React.FC = () => {
           >
             <div className="relative rounded-3xl overflow-hidden shadow-2xl border border-neutral-200/80 aspect-[16/10] bg-neutral-900 group">
               <img
-                src="/images/consultation.svg"
+                src="./images/smile-consultation.jpg"
                 alt="Dr. Milton Martinez and Patient Smile Consultation"
                 className={`w-full h-full object-cover transition-all duration-700 ${
                   isPlayingCenter ? 'scale-105 filter brightness-95' : 'scale-100 filter brightness-85'
@@ -120,7 +120,7 @@ export const AboutUs: React.FC = () => {
           >
             <div className="w-full max-w-xs ml-auto rounded-2xl overflow-hidden shadow-lg border border-neutral-200/60 aspect-[4/5] group bg-white">
               <img
-                src="/images/equipment.svg"
+                src="./images/dental-equipment.jpg"
                 alt="High Precision Dental Equipment"
                 className="w-full h-full object-cover group-hover:scale-108 transition-transform duration-700"
               />

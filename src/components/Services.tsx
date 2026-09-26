@@ -31,7 +31,7 @@ export const Services: React.FC<ServicesProps> = ({ onBookTreatment }) => {
       id: 'cosmetic-dentistry',
       title: 'Cosmetic Dentistry & Veneers',
       category: 'Smile Aesthetics',
-      image: '/images/operatory.svg',
+      image: './images/dental-care.jpg',
       shortDesc: 'Custom porcelain veneers, professional in-office whitening, and aesthetic bonding for a radiant smile.',
       fullDesc: 'At Club Atlantis Dental, Dr. Milton Martinez crafts bespoke porcelain veneers and cosmetic smile designs tailored to your facial symmetry and desired brightness, delivering stunning, natural-looking results.',
       deliverables: [
@@ -45,7 +45,7 @@ export const Services: React.FC<ServicesProps> = ({ onBookTreatment }) => {
       id: 'dental-implants',
       title: 'Dental Implants & Restorations',
       category: 'Implantology',
-      image: '/images/consultation.svg',
+      image: './images/smile-consultation.jpg',
       shortDesc: 'Permanent titanium and ceramic implant restorations for missing teeth with lifelike strength and beauty.',
       fullDesc: 'Restore your natural chewing function and confidence with state-of-the-art dental implants. From single-tooth replacements to full-arch restorations, we utilize 3D digital guided surgery for precision and rapid healing.',
       deliverables: [
@@ -59,7 +59,7 @@ export const Services: React.FC<ServicesProps> = ({ onBookTreatment }) => {
       id: 'restorative-dentistry',
       title: 'Restorative Care & Endodontics',
       category: 'Tooth Preservation',
-      image: '/images/equipment.svg',
+      image: './images/clinic-interior.jpg',
       shortDesc: 'Gentle rotary root canal therapy, tooth-colored crowns, bridges, and durable biomimetic fillings.',
       fullDesc: 'Dr. Martinez specializes in pain-free restorative treatments. Whether you need rotary root canal therapy to save a damaged tooth or high-strength ceramic crowns, we preserve your natural smile with gentle precision.',
       deliverables: [
@@ -73,7 +73,7 @@ export const Services: React.FC<ServicesProps> = ({ onBookTreatment }) => {
       id: 'preventive-care',
       title: 'Preventive & Family Hygiene',
       category: 'Total Wellness',
-      image: '/images/operatory.svg',
+      image: './images/dental-equipment.jpg',
       shortDesc: 'Comprehensive cleanings, digital low-radiation X-rays, periodontal health, and oral cancer screenings.',
       fullDesc: 'Preventive care is the cornerstone of long-term dental health. Our gentle hygiene cleanings, non-invasive periodontal therapies, and advanced 3D diagnostics keep your teeth and gums healthy for a lifetime.',
       deliverables: [

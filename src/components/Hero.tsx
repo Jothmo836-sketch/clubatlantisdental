@@ -46,7 +46,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenBooking, onNavigate }) => {
       {/* 1. Hero Background Image with Full Visibility & Coastal Ambience */}
       <div className="absolute inset-0 z-0 pointer-events-none overflow-hidden">
         <img
-          src="/images/hero-coast.svg"
+          src="./images/clinic-interior.jpg"
           alt="Club Atlantis Miami Beach Coastal Atmosphere"
           className="w-full h-full object-cover object-center filter brightness-95 contrast-105"
         />
@@ -141,7 +141,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenBooking, onNavigate }) => {
               
               {/* Image in the right container */}
               <img
-                src="/images/consultation.svg"
+                src="./images/smile-consultation.jpg"
                 alt="Patient Smile at Club Atlantis Dental Miami Beach"
                 className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-700 filter brightness-95"
               />
@@ -158,17 +158,17 @@ export const Hero: React.FC<HeroProps> = ({ onOpenBooking, onNavigate }) => {
               >
                 <div className="flex -space-x-2">
                   <img
-                    src="/images/avatar-person.svg"
+                    src="./images/dentist-portrait.jpg"
                     alt="Patient"
                     className="w-7 h-7 rounded-full border border-neutral-900 object-cover"
                   />
                   <img
-                    src="/images/avatar-person.svg"
+                    src="./images/hygienist-portrait.jpg"
                     alt="Patient"
                     className="w-7 h-7 rounded-full border border-neutral-900 object-cover"
                   />
                   <img
-                    src="/images/avatar-person.svg"
+                    src="./images/assistant-portrait.jpg"
                     alt="Patient"
                     className="w-7 h-7 rounded-full border border-neutral-900 object-cover"
                   />

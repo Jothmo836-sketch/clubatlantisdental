@@ -48,7 +48,7 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
           >
             <div className="relative rounded-3xl overflow-hidden bg-neutral-900 border border-white/10 aspect-[4/4.8] shadow-2xl max-w-sm group">
               <img
-                src="/images/consultation.svg"
+                src="./images/clinic-interior.jpg"
                 alt="Club Atlantis Dental Miami Beach"
                 className={`w-full h-full object-cover transition-all duration-1000 ${
                   isPlaying ? 'scale-105 filter brightness-95' : 'scale-100 filter brightness-85'

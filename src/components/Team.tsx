@@ -19,7 +19,7 @@ export const Team: React.FC = () => {
       name: 'Dr. Milton Martinez',
       role: 'Lead Dentist & Implantologist, DMD',
       credentials: 'DMD • 15+ Years Experience',
-      image: '/images/avatar-person.svg',
+      image: './images/dentist-portrait.jpg',
       bio: 'Dr. Milton Martinez brings over 15 years of clinical mastery in restorative dentistry, prosthodontics, cosmetic smile design, and rotary root canal therapy with a gentle, patient-focused approach.',
       specialty: 'Cosmetic Veneers & Dental Implants'
     },
@@ -28,7 +28,7 @@ export const Team: React.FC = () => {
       name: 'Elena Rostova',
       role: 'Lead Registered Dental Hygienist',
       credentials: 'RDH • Periodontal Specialist',
-      image: '/images/avatar-person.svg',
+      image: './images/hygienist-portrait.jpg',
       bio: 'Elena provides thorough, anxiety-free preventive cleanings and advanced periodontal maintenance to protect your gum health and smile brightness.',
       specialty: 'Preventive & Laser Periodontal Care'
     },
@@ -37,7 +37,7 @@ export const Team: React.FC = () => {
       name: 'Carlos Gomez',
       role: 'Lead Surgical & Restorative Assistant',
       credentials: 'CDA • Digital 3D Imaging',
-      image: '/images/avatar-person.svg',
+      image: './images/assistant-portrait.jpg',
       bio: 'Carlos assists Dr. Martinez with digital 3D intraoral scanning and chairside comfort protocols, ensuring every patient enjoys a relaxed visit.',
       specialty: 'Patient Comfort & Surgical Assisting'
     },
@@ -46,7 +46,7 @@ export const Team: React.FC = () => {
       name: 'Sofia Valdes',
       role: 'Patient Care & Insurance Coordinator',
       credentials: 'Bilingual Patient Concierge',
-      image: '/images/avatar-person.svg',
+      image: './images/coordinator-portrait.jpg',
       bio: 'Sofia coordinates insurance claims, CareCredit 0% financing, and custom treatment schedules so your dental journey is completely seamless and transparent.',
       specialty: 'Insurance Optimization & CareCredit'
     }

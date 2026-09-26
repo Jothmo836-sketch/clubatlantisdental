@@ -16,7 +16,7 @@ export const VideoBanner: React.FC = () => {
           className="relative rounded-[2.5rem] overflow-hidden shadow-2xl bg-neutral-900 aspect-[16/9] sm:aspect-[21/9] group"
         >
           <img
-            src="/images/consultation.svg"
+            src="./images/clinic-interior.jpg"
             alt="Club Atlantis Dental Modern Clinic Interior"
             className={`w-full h-full object-cover object-center transition-all duration-1000 ${
               isPlaying ? 'scale-105 filter brightness-95' : 'scale-100 filter brightness-85'

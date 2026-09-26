@@ -39,7 +39,7 @@ export const Portfolio: React.FC<PortfolioProps> = ({ onBookTreatment }) => {
       title: 'Porcelain Veneers Smile Makeover',
       tag: 'Cosmetic • Veneers',
       year: '2026',
-      image: '/images/operatory.svg',
+      image: './images/smile-consultation.jpg',
       summary: 'Crafted 8 handcrafted custom porcelain veneers to correct uneven spacing and deep discoloration, resulting in a naturally radiant, Hollywood-grade Miami smile.',
       metric: '8 Units',
       metricLabel: 'Custom E.max Ceramic Veneers'
@@ -49,7 +49,7 @@ export const Portfolio: React.FC<PortfolioProps> = ({ onBookTreatment }) => {
       title: 'Single-Tooth Dental Implant Restoration',
       tag: 'Implantology • Restorative',
       year: '2025',
-      image: '/images/consultation.svg',
+      image: './images/dental-care.jpg',
       summary: 'Guided 3D surgical placement of a biocompatible titanium implant with a custom-shaded zirconia crown, restoring 100% natural bite strength without affecting adjacent teeth.',
       metric: '100%',
       metricLabel: 'Bite Strength Restored'
@@ -59,7 +59,7 @@ export const Portfolio: React.FC<PortfolioProps> = ({ onBookTreatment }) => {
       title: 'Full-Arch Restorative Rehabilitation',
       tag: 'Full Mouth • Implants',
       year: '2025',
-      image: '/images/equipment.svg',
+      image: './images/clinic-interior.jpg',
       summary: 'Comprehensive rehabilitation utilizing high-durability fixed ceramic bridges and rotary endodontic therapy, reversing decades of severe tooth wear.',
       metric: '14 Days',
       metricLabel: 'Complete Treatment Timeline'
@@ -69,7 +69,7 @@ export const Portfolio: React.FC<PortfolioProps> = ({ onBookTreatment }) => {
       title: 'Aesthetic Composite Bonding & Whitening',
       tag: 'Cosmetic • Same-Day',
       year: '2026',
-      image: '/images/operatory.svg',
+      image: './images/dental-equipment.jpg',
       summary: 'Single-visit laser teeth whitening followed by artistic micro-layering composite bonding on chipped incisors, performed with zero anesthesia required.',
       metric: '6 Shades',
       metricLabel: 'Brighter Enamel Transformation'
@@ -79,7 +79,7 @@ export const Portfolio: React.FC<PortfolioProps> = ({ onBookTreatment }) => {
       title: 'Emergency Tooth Relief & Crown Repair',
       tag: 'Emergency • Endodontics',
       year: '2025',
-      image: '/images/consultation.svg',
+      image: './images/smile-consultation.jpg',
       summary: 'Same-day urgent appointment for acute fracture and root infection. Pain resolved immediately with rotary root canal therapy and a precision ceramic crown.',
       metric: '< 2 hrs',
       metricLabel: 'Same-Day Emergency Relief'
